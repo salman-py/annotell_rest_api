@@ -1,7 +1,7 @@
 # Using flask to make an api
 # import necessary libraries and functions
 from flask import Flask, jsonify, request
-
+# from annotell_data_transformation import ReadFile
 # creating a Flask app
 app = Flask(__name__)
 
@@ -29,5 +29,4 @@ def get_result():
 
 # driver function
 if __name__ == '__main__':
-
 	app.run(debug = True)
